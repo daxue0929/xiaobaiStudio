@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './component/hello/Hello'
+import Hello from "./component/hello/Hello";
 
 class App extends Component {
   render() {
@@ -19,8 +21,11 @@ class App extends Component {
           >
             Learn React
           </a>
+            <br/>
+            <Hello />
         </header>
-      </div>
+
+        </div>
     );
   }
 }
